@@ -8,30 +8,42 @@ const caixaResultado =document.querySelector(".texto-resultado");
 
 const perguntas = [
 {
- enunciado:
-  "Como a IA afetará o mercado de trabalho no futuro?"
+ enunciado: 
+  "Como a IA afetará o mercado de trabalho no futuro?",
  
   alternativas: [
-    correta: "A IA pode auxiliar na analise de grandes volumes de dados medicos, aprimorando diagnostico e tratamento personalizados."
+    alternativa 1: "A IA pode auxiliar na analise de grandes volumes de dados medicos, aprimorando diagnostico e tratamento personalizados.",
 
-    incorreta: "substituirá completamente os medicos"
+    alternativa 2: "substituirá completamente os medicos"
  
   ]
-
 },
 {  
-    enunciado: "Como a IA afetará o trabalho?"
+    enunciado: "Como a IA afetará o trabalho?",
 
     alternativas:[
-     correta: "substituirá algumas funções, mas criará novas oportunidades."
+     alternativa 1: "substituirá algumas funções, mas criará novas oportunidades.",
 
-   incorreta: "substituirá todos os empregos humanos."
+   alternativa 2: "substituirá todos os empregos humanos."
     ]
-}
+},
 {
    enunciado: "A IA tomará decisões morais?" ,
      alternativas: [
-   correta: "A ia ajudará, mas não entenderá toralmente a moralidade.",
-   incorreta: "A ia tomará decisões morais como um ser humano."
+   alternativa 1: "A ia ajudará, mas não entenderá toralmente a moralidade.",
+
+   alternativa 2: "A ia tomará decisões morais como um ser humano."
   ]
-}
+},
+{
+  enunciado: "A ia mudará a educação?",
+  alternativa 1: "Personalizara o ensino para cada aluno.",
+
+  alternativa 2: "substituira totalmente os professores."
+},
+{
+  enunciado: "A ia será autônomo em 2050?",
+  alternativa 1: "Vai depender de supervisão humana.",
+
+  alternativa 2: "será totalmente autonoma."
+},
