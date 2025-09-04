@@ -12,9 +12,9 @@ const perguntas = [
   "Como a IA afetará o mercado de trabalho no futuro?"
  
   alternativas: [
-     "A IA pode auxiliar na analise de grandes volumes de dados medicos, aprimorando diagnostico e tratamento personalizados."
+    correta: "A IA pode auxiliar na analise de grandes volumes de dados medicos, aprimorando diagnostico e tratamento personalizados."
 
-     "substituirá completamente os medicos"
+    incorreta: "substituirá completamente os medicos"
  
   ]
 
@@ -23,11 +23,15 @@ const perguntas = [
     enunciado: "Como a IA afetará o trabalho?"
 
     alternativas:[
-       "substituirá algumas funções, mas criará novas oportunidades."
+     correta: "substituirá algumas funções, mas criará novas oportunidades."
 
-       "substituirá todos os empregos humanos."
+   incorreta: "substituirá todos os empregos humanos."
     ]
 }
 {
-    
+   enunciado: "A IA tomará decisões morais?" ,
+     alternativas: [
+   correta: "A ia ajudará, mas não entenderá toralmente a moralidade.",
+   incorreta: "A ia tomará decisões morais como um ser humano."
+  ]
 }
