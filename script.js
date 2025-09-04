@@ -47,7 +47,7 @@ const perguntas = [
 
   alternativa 2: "será totalmente autonoma."
 },
-]:
+];
  let atual = 0;
  let perguntaAtual;
 
